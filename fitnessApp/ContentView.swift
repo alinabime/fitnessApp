@@ -13,9 +13,8 @@ struct ContentView: View {
             Image(systemName: "heart")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello,!")
+            Text(",!")
         }
-        .padding()
     }
 }
 
