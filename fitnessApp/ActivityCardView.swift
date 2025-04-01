@@ -7,15 +7,6 @@
 
 import SwiftUI
 
-struct ActivityCardModel {
-    var id: Int
-    var title: String
-    var subtitle: String
-    var image: String
-    var tintColor: Color
-    var   amount: Int
-    
-}
 
 struct ActivityCardView: View {
     let activity: ActivityCardModel
@@ -51,5 +42,5 @@ struct ActivityCardView: View {
 }
 
 #Preview {
-    ActivityCardView(activity: ActivityCardModel(id: 0, title: "Today steps", subtitle: "Goal 10,000", image: "figure.walk", tintColor: Color.green, amount: 6000))
+    ActivityCardView(activity: ActivityCardModel(title: "Today steps", subtitle: "Goal 10,000", image: "figure.walk", tintColor: Color.green, amount: 6000))
 }
